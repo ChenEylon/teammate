@@ -1,10 +1,24 @@
-.x{
+.x {
+    display: flex;
     color: darkorchid;
+    justify-content: center;
+    align-items: center;
 }
-.o{
-color:gold
+
+.o {
+    display: flex;
+    color: gold ;
+    justify-content: center;
+    align-items: center;
 }
-.home{
+
+.home {
     display: grid;
-    grid-template-columns: repeat(3,25vmin);
+    grid-template-columns: repeat(3, 25vmin);
+    justify-content: center;
+    align-items: center;
+}
+.reset-btn{
+    font-size: small;
+    width: 18vmin;
 }
