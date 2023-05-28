@@ -1,0 +1,10 @@
+.x{
+    color: darkorchid;
+}
+.o{
+color:gold
+}
+.home{
+    display: grid;
+    grid-template-columns: repeat(3,25vmin);
+}
